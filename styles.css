@@ -1,1 +1,15 @@
-/* CSS CODE HERE */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100vw;
+    height: 100px;
+    background-color: #036ce2;
+}
+
+a{
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
