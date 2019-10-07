@@ -5,11 +5,24 @@ body{
 
 nav{
     width: 100vw;
-    height: 100px;
+    height: 75px;
     background-color: #036ce2;
+    position: fixed;
 }
 
 a{
     text-decoration: none;
     scroll-behavior: smooth;
 }
+
+ul{
+    list-style: none;
+}
+
+.universal{
+    height: 55px;
+    width: 90.58;
+    margin-left: 81px;
+    margin-top: -6px;
+}
+
