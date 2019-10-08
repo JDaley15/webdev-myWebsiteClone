@@ -26,3 +26,25 @@ ul{
     margin-top: -6px;
 }
 
+
+.cart{
+    float: right;
+    margin-top: -37px;
+    margin-right: 594px;
+}
+
+.seperator{
+height: 35px;
+width: 1px;
+background-color: white;
+margin-top: -37px;
+margin-right: 574px;
+
+float: right;
+}
+
+.search{
+    margin-top: -50px;
+    margin-left: 70px;
+    float: right;
+}
