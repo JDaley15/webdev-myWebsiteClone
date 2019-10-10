@@ -1,3 +1,6 @@
+
+
+
 body{
     margin: 0;
     padding: 0;
@@ -47,4 +50,19 @@ float: right;
     margin-top: -50px;
     margin-left: 70px;
     float: right;
+}
+
+#hero{
+    background:  url(https://www.universalorlando.com/webdata/k2/en/us/files/Images/universal-hagrids-magical-creatures-motorbike-adventure-a.jpg?);
+    width: 100vw;
+    height: 821px;
+    margin-top: -10.5px;
+    background-repeat: no-repeat;
+        background-size: cover
+      
+
+}
+
+h3{
+    color: #fff;
 }
