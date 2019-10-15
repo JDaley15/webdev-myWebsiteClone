@@ -10,7 +10,7 @@ nav{
     width: 100vw;
     height: 75px;
     background-color: #036ce2;
-    position: fixed;
+   
 }
 
 a{
@@ -81,5 +81,31 @@ h3{
     width: 147.8px;
     height: 32px;
     text-align: center;
-    margin-left:
+    margin-left: 650px;
+    border-radius: 25px;
+}
+
+#quickbar{
+    background-color: firebrick;
+    width: 1146px;
+    height: 93px;
+    margin-left: 10%;
+    margin-top: -50px;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.quickbarlink{
+    margin-left: 35px;
+    
+    
+}
+
+#divider{
+      background-color: grey;
+      width: 1px;
+      height: 93px;
+      display: inline-block;
+      margin: 5%;
+      margin-top: 0px;
 }
