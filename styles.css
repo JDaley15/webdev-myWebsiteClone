@@ -10,7 +10,7 @@ nav{
     width: 100vw;
     height: 75px;
     background-color: #036ce2;
-    position: fixed;
+   
 }
 
 a{
@@ -74,6 +74,7 @@ h3{
     color: #fff;  
     text-align: center;
     font-size: 25px;
+    margin-top: -45px;
 }
 
 #details{
@@ -81,5 +82,54 @@ h3{
     width: 147.8px;
     height: 32px;
     text-align: center;
-    margin-left:
+    margin-left: 45%;
+    border-radius: 25px;
+    
+}
+
+h2{
+    color: #036ce2;
+    font-weight: bolder;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    padding: 8px;
+}
+#quickbar{
+    background-color: firebrick;
+    width: 1146px;
+    height: 93px;
+    margin-left: 20%;
+    margin-top: -50px;
+    border-radius: 25px;
+    display: inline-block;
+
+    
+}
+
+.quickbarlink{
+    margin-left: 35px;
+    align-items: center;
+}
+
+#divider{
+      background-color: grey;
+      width: 1px;
+      height: 93px;
+      display: inline-block;
+      margin: 5%;
+      margin-top: 0px;
+      
+      
+}
+
+.parktickets{
+    width: 83.95;   
+    height: 21px;
+}
+
+a{
+    border-right: 1px solid black;
+    height: 93px;
+    width: 50px;
+    padding-right: 17px;   
 }
