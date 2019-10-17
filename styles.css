@@ -42,7 +42,7 @@ ul{
 .cart{
     float: right;
     margin-top: -44px;
-    margin-right: 594px;
+    margin-right: 350px;
 }
 
 .seperator{
@@ -50,14 +50,14 @@ height: 35px;
 width: 1px;
 background-color: white;
 margin-top: -55px;
-margin-right: 574px;
+margin-right: 320px;
 
 float: right;
 }
 
 .search{
     margin-top: -50px;
-    margin-right: 500px;
+    margin-right: 270px;
     float: right;
 }
 
