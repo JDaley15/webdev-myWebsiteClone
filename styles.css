@@ -1,17 +1,26 @@
 
-
-
 body{
     margin: 0;
     padding: 0;
 }
 
 nav{
+    
+    width: 100vw;
+    height: 75px;
+    background-color: #036ce2;
+    
+}
+
+#bar{
+    position: fixed;
     width: 100vw;
     height: 75px;
     background-color: #036ce2;
    
 }
+
+
 
 a{
     text-decoration: none;
@@ -32,7 +41,7 @@ ul{
 
 .cart{
     float: right;
-    margin-top: -37px;
+    margin-top: -44px;
     margin-right: 594px;
 }
 
@@ -40,7 +49,7 @@ ul{
 height: 35px;
 width: 1px;
 background-color: white;
-margin-top: -37px;
+margin-top: -55px;
 margin-right: 574px;
 
 float: right;
@@ -48,7 +57,7 @@ float: right;
 
 .search{
     margin-top: -50px;
-    margin-left: 70px;
+    margin-right: 500px;
     float: right;
 }
 
@@ -58,7 +67,7 @@ float: right;
     height: 821px;
     margin-top: -50.5px;
     background-repeat: no-repeat;
-        background-size: cover
+        background-size: cover;
       
 
 }
@@ -68,12 +77,16 @@ h4{
     text-align: center;
     padding-top: 340px;
     font-size: 40px;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 2000;
 }
 
 h3{
     color: #fff;  
     text-align: center;
     font-size: 25px;
+    margin-top: -45px;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #details{
@@ -81,31 +94,618 @@ h3{
     width: 147.8px;
     height: 32px;
     text-align: center;
-    margin-left: 650px;
+    margin-left: 45%;
     border-radius: 25px;
+    
 }
 
+h2{
+    color: #036ce2;
+    font-weight: bolder;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    padding: 8px;
+}
+   
+
 #quickbar{
-    background-color: firebrick;
+    background-color: #fff;
     width: 1146px;
     height: 93px;
+    margin-left: 20%;
+    margin-top: -50px;
+    border-radius: 25px;
+    display: flex;
     margin-left: 10%;
     margin-top: -50px;
     border-radius: 25px;
-    display: inline-block;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2)
+
 }
 
 .quickbarlink{
-    margin-left: 35px;
+    margin-left: 11%;
+    
+
+}
+
+      
+a{
+    
+    height: 20px;
+    width: 10px;
+    padding-right: 10px;   
+    
+ 
+}
+.parktickets{
+    width: 20;   
+    height: 10px;
+    color: #333333;
+    text-align: justify;
+    font-weight: lighter;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    vertical-align: middle;
+
+}
+
+.quickbarpic{
+    height: 32px
+    
+}
+
+.parktickets img{
+    display: block;
+    margin: 0 auto;
+}
+
+#explore{
+    width: 100vw;
+    height: 600px;
+    display: inline-block;
+    
+}
+
+.exploreh{
+    color: #333;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    margin-top: -290px;
+    font-size: 35px;
+}
+
+.explored{
+        width: 300px;
+        height: 300px;
+        background-image: url(https://www.universalorlando.com/webdata/k2/en/us/files/Images/sr-parks-01-rec.jpg);
+        background-size: cover;
+        display: inline-block;
+        margin-left: 300px;
+        
+       
+        
+        
+}
+
+.dragon{
+    background-image: url(https://www.universalorlando.com/webdata/k2/en/us/files/Images/sr-parks-01-rec.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    background-position: center center;
+    text-shadow: 0px 3px 12.64px rgba(0, 0, 0, 0.1);
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 10%;
+    
+    
     
     
 }
 
-#divider{
-      background-color: grey;
-      width: 1px;
-      height: 93px;
-      display: inline-block;
-      margin: 5%;
-      margin-top: 0px;
+.title{
+font-size: 35px;
+padding-top: 100px;
+
 }
+
+.description{
+    margin-top: -25px;
+}
+
+.islands{
+    background-image: url(https://www.universalorlando.com/webdata/k2/en/us/files/Images/sr-parks-02-rec.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    background-position: center center;
+    text-shadow: 0px 3px 12.64px rgba(0, 0, 0, 0.1);
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 5%;
+    
+
+}
+.volcano{
+    background-image: url(https://www.universalorlando.com/webdata/k2/en/us/files/Images/sr-parks-03-rec.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    background-position: center center;
+    text-shadow: 0px 3px 12.64px rgba(0, 0, 0, 0.1);
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 5%;
+
+}
+
+#exploresection{
+    display: flex;
+}
+
+#info{
+    width: 100vw;
+    height: 200px;
+    background-color: #2b4584;
+    background:-o-linear-gradient(left, #2b4584 0, #1b3281);
+    margin-top: -50px
+
+}
+
+.weather{
+    color: #fff;
+    margin-left: 30%;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+    padding-top: 100px;
+
+}
+
+.sep{
+    height: 120px;
+    width: 1px;
+    background-color: white;
+    margin-top: -110px;
+    margin-left: 53%;
+
+ 
+}
+
+.dot {
+    height: 95px;
+    width: 95px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: -300px;
+    
+    
+  }
+
+
+
+  #circle{
+      margin-top: -3%;
+      margin-left: 55%;
+  }
+  
+  #circlen{
+      color: #fff;
+      font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-weight: 400;
+      margin-left: 58%;
+
+  }
+
+  .maps{
+      margin-left: 80px;
+  }
+
+  .parking{
+    margin-left: 90px;
+  }
+
+  .directions{
+    margin-left: 72.5px;
+  }
+
+  #cp{
+      margin-left: 60.5%;
+      margin-top: -6.5%;
+  }
+
+  #ct{
+    margin-left: 68.8%;
+    margin-top: -4%;
+}
+
+#cpg{
+    margin-left: 32.5%;
+    margin-top: -15%;
+
+}
+
+#cpd{
+    margin-left: 60.5%;
+    margin-top: -14%;
+
+}
+
+#places{
+    width: 100vw;
+    height: 550px;
+    display: inline-block;
+    background-color: #fafafa;
+
+
+}
+
+.placestostay{
+        color: #333;
+        font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 900;
+        margin-top: -290px;
+        font-size: 35px;
+
+        
+}
+
+.resort{
+    background-image: url(https://www.universalorlando.com/webdata/k2/en/us/files/Images/sr-surfside.png);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    background-position: center center;
+    text-shadow: 0px 3px 12.64px rgba(0, 0, 0, 0.1);
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 5%;
+
+}
+
+.title2{
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+.beach{
+    background-image: url(https://www.universalorlando.com/webdata/k2/en/us/files/Images/sr-hotels-02-rec.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    background-position: center center;
+    text-shadow: 0px 3px 12.64px rgba(0, 0, 0, 0.1);
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 5%;
+
+}
+
+.hotelp{
+    background-image: url(https://www.universalorlando.com/webdata/k2/en/us/files/Images/sr-aventura-swim-hero.png);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    background-position: center center;
+    text-shadow: 0px 3px 12.64px rgba(0, 0, 0, 0.1);
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 5%;
+
+}
+
+#placesection{
+    display: flex;
+    margin-left: 5%;
+}
+
+#help{
+    text-align: center;
+    width: 100vw;
+    height: 225px;
+}
+
+.what{
+    color: #666;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top:40px;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+#quickbar2{
+    margin-top: 40px;
+    box-shadow: 0px 0px 16px -5px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    width: 1146px;
+    display: flex;
+    height: 93px;
+    margin-left: 10%;
+    border-radius: 25px;
+    
+}
+
+
+
+#thingstodo{
+    width: 100vw;
+    height: 525px;
+    display: inline-block;
+    background-color: #fff;
+
+}
+
+.things{
+    color: #333;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    margin-top: -320px;
+    font-size: 35px;
+
+}
+
+.halloween{
+    background-image: url(https://www.universalorlando.com/webdata/k2/en/us/files/Images/HHN_Hero_O4A9443_370x370.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    background-position: center center;
+    text-shadow: 0px 3px 12.64px rgba(0, 0, 0, 0.1);
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 5%;
+}
+
+.blueman{
+    background-image: url(https://www.universalorlando.com/webdata/k2/en/us/files/Images/sr-things-02-rec.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    background-position: center center;
+    text-shadow: 0px 3px 12.64px rgba(0, 0, 0, 0.1);
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 5%;
+}
+
+.bigfire{
+    background-image: url(https://www.universalorlando.com/webdata/k2/en/us/files/Images/sr-bigfire.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    background-position: center center;
+    text-shadow: 0px 3px 12.64px rgba(0, 0, 0, 0.1);
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 5%;
+}
+
+#thingst{
+    display: flex;
+    margin-left: 5%;
+}
+
+#ad{
+    background-color: #eee;
+    width: 100vw;
+    height: 164px;
+
+}
+
+.card{
+    width: 1000px;
+    height: 140px;
+    max-width: 100%;
+    padding-top: 15px;
+    margin-left: 15%;
+    background-size:cover; 
+  background-position:center center; 
+  background-repeat:no-repeat; 
+    
+}
+
+#footer{
+    background-color: #fff;
+width: 100vw;
+height: 900px;
+
+}
+
+.scream{
+    width: 370px;
+    height: 104px;
+    margin-top: 70px;
+    margin-left: 20%;
+}
+
+#section1{
+    display: flex;
+}
+
+.stayin{
+    margin-left: 8%;
+    margin-top: 50px;
+}
+
+.stayin{
+    color:#333;
+    font-weight: 200;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+
+}
+
+.head{
+    color:#333;
+    font-weight: bolder;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+}
+
+#signup{
+    background-color: #036ce2;
+    color: #fff;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    padding-top: 13px;
+    text-transform: uppercase;
+    margin-left: 550px;
+    margin-top: -70px;
+}
+
+#divider{
+    height: 2px;
+    width: 1200px;
+    background-color: #666;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+
+#section2{
+
+    margin-top: 50px;
+    display: flex;
+}
+
+.likeus{
+    color:#333;
+    font-weight: bolder;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.connect{
+    color:#333;
+    font-weight: bolder;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    margin-left: 40%;
+}
+
+.social{
+    padding-left: 20px;
+
+}
+
+#section3{
+    margin-top: 50px;
+    display: flex;
+    color:#036ce2;
+    font-weight: bolder;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+}
+
+.contact{
+    margin-left: 5%;
+}
+
+.english{
+    margin-left: 20%;
+}
+
+#list1{
+    margin-top: 50px;
+    margin-left: 5%;
+    color:#036ce2;
+    font-weight: bolder;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+#section4{
+    display: inline-block;
+}
+
+#list2{
+    margin-left: 35%;
+    color:#036ce2;
+    font-weight: bolder;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    margin-top: -130px;
+}
+
+#list3{
+    margin-left: 70%;
+    color:#036ce2;
+    font-weight: bolder;
+    font-family: "HCo Gotham","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    margin-top: -310px;
+}
+
+#divider2{
+    height: 2px;
+    width: 1200px;
+    background-color: #666;
+    margin-top: 120px;
+    margin-left: 5%;
+}
+
+#section5{
+    margin-top: 50px;
+    margin-left: 5%;
+    color: #666;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
